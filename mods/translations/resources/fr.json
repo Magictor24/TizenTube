@@ -197,79 +197,79 @@
                     "title": "Mettre à jour maintenant",
                     "subtitle": "Cliquez pour télécharger la dernière version."
                 },
-                "rappelerPlus tard": {
-                    "titre": "Moi le rappeur plus tard",
-                    "sous-titre": "Rechercher des mises à jour plus tard."
+                "remindLater": {
+                    "title": "Me le rappeler plus tard",
+                    "subtitle": "Rechercher des mises à jour plus tard."
                 },
-                "à jour": {
-                    "titre": "TizenTube est à jour",
-                    "sous-titre": "Vous utilisez la dernière version ({{version}}) de TizenTube Cobalt."
+                "upToDate": {
+                    "title": "TizenTube est à jour",
+                    "subtitle": "Vous utilisez la dernière version ({{version}}) de TizenTube Cobalt."
                 },
-                "vérification échouée": {
-                    "titre": "Échec de la vérification des mises à jour de TizenTube",
-                    "sous-titre": "Impossible de rechercher des mises à jour."
+                "checkFailed": {
+                    "title": "Échec de la vérification des mises à jour de TizenTube",
+                    "subtitle": "Impossible de rechercher des mises à jour."
                 },
-                "téléchargement": {
-                    "titre": "Mise à jour TizenTube",
-                    "sous-titre": "Téléchargement de la mise à jour, voir patienter..."
+                "downloading": {
+                    "title": "Mise à jour TizenTube",
+                    "subtitle": "Téléchargement de la mise à jour, veuillez patienter..."
                 }
             }
         },
-        "ttParamètres": {
-            "titre": "Paramètres TizenTube",
+        "ttSettings": {
+            "title": "Paramètres TizenTube",
             "madeByText": "Fait par Reis Can (reisxd) avec ❤️",
-            "résumé": "Ouvrir les paramètres TizenTube"
+            "summary": "Ouvrir les paramètres TizenTube"
         },
         "supportTT": {
-            "titre": "Soutenir TizenTube",
-            "sous-titre": "❤️ Montrez votre soutien à TizenTube et à son développement",
-            "contenu": {
+            "title": "Soutenir TizenTube",
+            "subtitle": "❤️ Montrez votre soutien à TizenTube et à son développement",
+            "content": {
                 "1": "Si vous appréciez TizenTube et souhaitez soutenir son développement, voici comment faire :",
                 "2": "1. Mettez une étoile au dépôt GitHub pour l'aider à gagner en visibilité.",
-                "3": "2. Partigez TizenTube avec d'autres personnes.",
-                "4": "Si vous soutenez contribuer financièrement, envisagez de faire un don :",
-                "5": "- Achète-moi un café : https://www.buymeacoffee.com/reisxd (de préférence)",
-                "6": "- Sponsors GitHub : https://github.com/sponsors/reisxd"
+                "3": "2. Partagez TizenTube avec d'autres personnes.",
+                "4": "Si vous souhaitez contribuer financièrement, envisagez de faire un don :",
+                "5": "- Buy Me A Coffee : https://www.buymeacoffee.com/reisxd (de préférence)",
+                "6": "- GitHub Sponsors : https://github.com/sponsors/reisxd"
             }
         }
     },
-    "bienvenueMsg": {
-        "titre": "Bienvenue sur TizenTube",
-        "sous-titre": "Allez dans les paramètres et cliquez sur Paramètres TizenTube pour accéder aux éléments."
+    "welcomeMsg": {
+        "title": "Bienvenue sur TizenTube",
+        "subtitle": "Allez dans les paramètres et cliquez sur Paramètres TizenTube pour accéder aux réglages."
     },
-    "bloc de parrainage": {
+    "sponsorblock": {
         "segments": {
             "sponsor": "segment sponsorisé",
-            "introduction": "introduction",
+            "intro": "introduction",
             "outro": "conclusion",
             "interaction": "rappel d'interaction",
-            "autopromotion": "autopromotion",
-            "aperçu": "récapitulatif ou aperçu",
-            "remplissage": "digressions",
-            "musique_hors sujet": "partie musicale hors sujet",
+            "selfpromo": "autopromotion",
+            "preview": "récapitulatif ou aperçu",
+            "filler": "digressions",
+            "music_offtopic": "partie musicale hors sujet",
             "poi_highlight": "moment fort"
         },
         "toasts": {
-            "sauter": "Passage de {{segment}}",
-            "pas de saut": "{{segment}} non ignoré (ignoré {{count}} fois)",
-            "sauter": "Passeur {{segment}}",
+            "skipping": "Passage de {{segment}}",
+            "notSkipping": "{{segment}} non ignoré (ignoré {{count}} fois)",
+            "skip": "Passer {{segment}}",
             "skipToHighlight": "Aller au moment fort"
         }
     },
-    "joueur": {
-        "vitesse de conférence": {
-            "titre": "Vitesse de conférence",
-            "bouton": "Contrôles de vitesse",
-            "fixStuttering": "Corriger les saccades (1 0001x)"
+    "player": {
+        "playbackSpeed": {
+            "title": "Vitesse de lecture",
+            "button": "Contrôles de vitesse",
+            "fixStuttering": "Corriger les saccades (1,0001x)"
         },
         "miniPlayer": "Mini lecteur",
-        "image dans l'image": "Incrustation d'image",
-        "précédent": "Précédent",
-        "suivant": "Suivant",
-        "avecTizenTube": "avec TizenTube"
+        "pictureInPicture": "Incrustation d'image",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "withTizenTube": "avec TizenTube"
     },
     "toasts": {
-        "vidéo ajoutée à la file d'attente": "Vidéo achetée à la file d'attente.",
-        "videoQueueCleared": "Dossier d'attention vidéo."
+        "videoAddedToQueue": "Vidéo ajoutée à la file d'attente.",
+        "videoQueueCleared": "File d'attente vidée."
     }
 }
