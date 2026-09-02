@@ -217,7 +217,7 @@ JSON.parse = function () {
     if (r?.playerOverlays?.playerOverlayRenderer) {
       if (r.playerOverlays.playerOverlayRenderer.timelyActionRenderers) {
         r.playerOverlays.playerOverlayRenderer.timelyActionRenderers =
-          r.playerOverlays.playerOverlayRenderer.timelyActionRenderers.filter(a => a.timelyActionRenderer.type !== 'TIMELY_ACTION_TYPE_SHOPPING' ||
+          r.playerOverlays.playerOverlayRenderer.timelyActionRenderers.filter(a => a.timelyActionRenderer.type !== 'TIMELY_ACTION_TYPE_SHOPPING' &&
             a.timelyActionRenderer.type !== 'TIMELY_ACTION_TYPE_NFL_WATERMARK');
       } else r.playerOverlays.playerOverlayRenderer.timelyActionRenderers = [];
       if (configRead('sponsorBlockManualSkips').length > 0) {
