@@ -177,7 +177,9 @@
                             "isClock12HourFormat": "Використовувати 12-годинний формат",
                             "clockShowSeconds": "Показувати секунди"
                         }
-                    }
+                    },
+                    "disableEnlargingThumbnails": "Disable Enlarged Thumbnails",
+                    "enableShrinkingThumbnails": "Enable Shrinked Thumbnails"
                 }
             },
             "updater": {

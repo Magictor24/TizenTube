@@ -6,7 +6,11 @@
         "options": {
             "socialMedia": {
                 "title": "Ссылки",
-                "qrCodeScanMessage": "Вы можете перейти на страницу {{name}} отсканировав QR-код ниже."
+                "qrCodeScanMessage": "Вы можете перейти на страницу {{name}} отсканировав QR-код ниже.",
+                "announcements": "Announcements",
+                "group": "Group",
+                "website": "Website",
+                "githubSponsors": "GitHub Sponsors"
             },
             "adBlock": "Блокировка рекламы",
             "sponsorblock": {
@@ -99,7 +103,9 @@
                     "afrPauseDuration": {
                         "title": "Длительность паузы Auto Frame Rate",
                         "subtitle": "Установите длительность (в секундах) паузы воспроизведения при изменении частоты кадров"
-                    }
+                    },
+                    "codecAny": "Any",
+                    "qualityAuto": "Auto"
                 }
             },
             "uiSettings": {
@@ -149,7 +155,25 @@
                             "isClock12HourFormat": "12-часовой формат",
                             "clockShowSeconds": "Показывать секунды"
                         }
-                    }
+                    },
+                    "categories": {
+                        "search": "Search",
+                        "home": "Home",
+                        "sports": "Sports",
+                        "news": "News",
+                        "music": "Music",
+                        "podcasts": "Podcasts",
+                        "moviesAndTv": "Movies & TV",
+                        "live": "Live",
+                        "gaming": "Gaming",
+                        "subscriptions": "Subscriptions",
+                        "library": "Library",
+                        "more": "More",
+                        "shorts": "Shorts",
+                        "searchResults": "Search Results"
+                    },
+                    "disableEnlargingThumbnails": "Disable Enlarged Thumbnails",
+                    "enableShrinkingThumbnails": "Enable Shrinked Thumbnails"
                 }
             },
             "updater": {
@@ -159,7 +183,38 @@
                 "options": {
                     "checkForUpdates": "Проверить обновления",
                     "checkForUpdatesOnStartup": "Проверять обновления при запуске"
+                },
+                "updateAvailable": {
+                    "title": "Update Available",
+                    "subtitle": "A new version of TizenTube Cobalt is available: {{latestVersion}}, current: {{currentVersion}}"
+                },
+                "releaseDate": "Release Date: {{date}}",
+                "updateNow": {
+                    "title": "Update Now",
+                    "subtitle": "Click to download the latest version."
+                },
+                "remindLater": {
+                    "title": "Remind Me Later",
+                    "subtitle": "Check for updates later."
+                },
+                "upToDate": {
+                    "title": "TizenTube is up to date",
+                    "subtitle": "You are using the latest version ({{version}}) of TizenTube Cobalt."
+                },
+                "checkFailed": {
+                    "title": "TizenTube update check failed",
+                    "subtitle": "Could not check for updates."
+                },
+                "downloading": {
+                    "title": "TizenTube Update",
+                    "subtitle": "Downloading update, please wait..."
                 }
+            },
+            "time": {
+                "second": "{{count}} second",
+                "seconds": "{{count}} seconds",
+                "minute": "{{count}} minute",
+                "minutes": "{{count}} minutes"
             }
         },
         "ttSettings": {
@@ -202,5 +257,21 @@
             "skip": "Пропустить {{segment}}",
             "skipToHighlight": "Перейти к ключевому моменту"
         }
+    },
+    "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with TizenTube"
+    },
+    "toasts": {
+        "videoAddedToQueue": "Video added to queue.",
+        "videoQueueCleared": "Video queue cleared."
     }
 }

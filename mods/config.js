@@ -63,6 +63,8 @@ const defaultConfig = {
   enableClock: false,
   isClock12HourFormat: false,
   clockShowSeconds: false,
+  disableEnlargingThumbnails: false,
+  enableShrinkingThumbnails: false,
 };
 
 let localConfig;

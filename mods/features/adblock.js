@@ -309,6 +309,10 @@ for (const key in window._yttv) {
 function processShelves(shelves, shouldAddPreviews = true) {
   for (const shelve of shelves) {
     if (shelve.shelfRenderer) {
+      if (shelve.shelfRenderer.tvhtml5Style) {
+        if (configRead('disableEnlargingThumbnails')) shelve.shelfRenderer.tvhtml5Style.effects.enlarge = false;
+        if (configRead('enableShrinkingThumbnails')) shelve.shelfRenderer.tvhtml5Style.effects.shrink = false;
+      }
       if (!shelve.shelfRenderer.content?.horizontalListRenderer?.items) continue;
       deArrowify(shelve.shelfRenderer.content.horizontalListRenderer.items);
       hqify(shelve.shelfRenderer.content.horizontalListRenderer.items);

@@ -177,7 +177,9 @@
                             "isClock12HourFormat": "12-Stunden-Format",
                             "clockShowSeconds": "Sekunden anzeigen"
                         }
-                    }
+                    },
+                    "disableEnlargingThumbnails": "Disable Enlarged Thumbnails",
+                    "enableShrinkingThumbnails": "Enable Shrinked Thumbnails"
                 }
             },
             "updater": {
@@ -263,7 +265,7 @@
             "fixStuttering": "Ruckeln beheben (1.0001x)"
         },
         "miniPlayer": "MiniPlayer",
-        "pictureInPicture": "Bild-in-Bild",	  
+        "pictureInPicture": "Bild-in-Bild",
         "previous": "Zurück",
         "next": "Weiter",
         "withTizenTube": "mit TizenTube"
