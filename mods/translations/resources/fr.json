@@ -213,6 +213,12 @@
                     "title": "Mise à jour TizenTube",
                     "subtitle": "Téléchargement de la mise à jour, veuillez patienter..."
                 }
+            },
+            "time": {
+                "second": "{{count}} second",
+                "seconds": "{{count}} seconds",
+                "minute": "{{count}} minute",
+                "minutes": "{{count}} minutes"
             }
         },
         "ttSettings": {

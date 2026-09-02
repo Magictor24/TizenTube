@@ -6,7 +6,11 @@
         "options": {
             "socialMedia": {
                 "title": "Sosyal Medya Bağlantıları",
-                "qrCodeScanMessage": "Aşağıdaki QR kodu tarayarak {{name}} sayfasını ziyaret edebilirsiniz."
+                "qrCodeScanMessage": "Aşağıdaki QR kodu tarayarak {{name}} sayfasını ziyaret edebilirsiniz.",
+                "announcements": "Duyurular",
+                "group": "Grup",
+                "website": "Web Sitesi",
+                "githubSponsors": "GitHub Sponsors"
             },
             "adBlock": "Reklam Engelleme",
             "sponsorblock": {
@@ -99,7 +103,9 @@
                     "afrPauseDuration": {
                         "title": "Otomatik Kare Hızı Duraklatma Süresi",
                         "subtitle": "Kare hızı ayarlanırken video oynatmayı duraklatma süresini (saniye) ayarlayın"
-                    }
+                    },
+                    "codecAny": "Herhangi",
+                    "qualityAuto": "Otomatik"
                 }
             },
             "uiSettings": {
@@ -149,7 +155,25 @@
                             "isClock12HourFormat": "Saat için 12 Saat Formatını Kullan",
                             "clockShowSeconds": "Saatte Saniyeleri Göster"
                         }
-                    }
+                    },
+                    "categories": {
+                        "search": "Ara",
+                        "home": "Ana Sayfa",
+                        "sports": "Spor",
+                        "news": "Haber",
+                        "music": "Müzik",
+                        "podcasts": "Podcastler",
+                        "moviesAndTv": "Filmler & TV",
+                        "live": "Canlı",
+                        "gaming": "Oyun",
+                        "subscriptions": "Abonelikler",
+                        "library": "Kitaplık",
+                        "more": "Daha Fazla",
+                        "shorts": "Shorts",
+                        "searchResults": "Arama Sonuçları"
+                    },
+                    "disableEnlargingThumbnails": "Büyütülmüş Küçük Resimleri Devre Dışı Bırak",
+                    "enableShrinkingThumbnails": "Küçük Resimleri Küçültmeyi Etkinleştir"
                 }
             },
             "updater": {
@@ -159,7 +183,38 @@
                 "options": {
                     "checkForUpdates": "Güncellemeleri kontrol et",
                     "checkForUpdatesOnStartup": "Açılışta güncellemeleri kontrol et"
+                },
+                "updateAvailable": {
+                    "title": "Güncelleme Mevcut",
+                    "subtitle": "TizenTube Cobalt'in yeni bir sürümü mevcut: {{latestVersion}}, şu anki sürüm: {{currentVersion}}"
+                },
+                "releaseDate": "Yayın Tarihi: {{date}}",
+                "updateNow": {
+                    "title": "Şimdi Güncelle",
+                    "subtitle": "En son sürümü indirmek için tıklayın."
+                },
+                "remindLater": {
+                    "title": "Daha Sonra Hatırlat",
+                    "subtitle": "Güncellemeleri daha sonra kontrol et."
+                },
+                "upToDate": {
+                    "title": "TizenTube Güncel",
+                    "subtitle": "TizenTube Cobalt'in en son sürümünü ({{version}}) kullanıyorsunuz."
+                },
+                "checkFailed": {
+                    "title": "TizenTube güncelleme denetimi başarısız oldu",
+                    "subtitle": "Güncellemeler denetlenemedi."
+                },
+                "downloading": {
+                    "title": "TizenTube Güncellemesi",
+                    "subtitle": "Güncelleme indiriliyor, lütfen bekleyin..."
                 }
+            },
+            "time": {
+                "second": "{{count}} saniye",
+                "seconds": "{{count}} saniye",
+                "minute": "{{count}} dakika",
+                "minutes": "{{count}} dakika"
             }
         },
         "ttSettings": {
@@ -202,5 +257,21 @@
             "skip": "Geç: {{segment}}",
             "skipToHighlight": "Öne çıkan âna atla"
         }
+    },
+    "player": {
+        "playbackSpeed": {
+            "title": "Hız",
+            "button": "Hız Kontrolleri",
+            "fixStuttering": "Düzelt: Titremeyi düzelt (1.0001x)"
+        },
+        "miniPlayer": "Mini Oynatıcı",
+        "pictureInPicture": "Resim İçinde Resim",
+        "previous": "Önceki",
+        "next": "Sonraki",
+        "withTizenTube": "TizenTube ile"
+    },
+    "toasts": {
+        "videoAddedToQueue": "Video kuyruğa eklendi.",
+        "videoQueueCleared": "Video kuyruğu temizlendi."
     }
 }

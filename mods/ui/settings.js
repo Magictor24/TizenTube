@@ -2,7 +2,6 @@ import { configRead } from '../config.js';
 import { showModal, buttonItem, overlayPanelItemListRenderer, scrollPaneRenderer, overlayMessageRenderer, QrCodeRenderer } from './ytUI.js';
 import qrcode from 'qrcode-npm';
 import { t } from 'i18next';
-import { getComprehensiveLanguageList } from '../features/moreSubtitles.js';
 
 const qrcodes = {};
 
@@ -795,6 +794,16 @@ export default function modernUI(update, parameters) {
                             value: 'clockShowSeconds'
                         }
                     ]
+                },
+                {
+                    name: t('settings.options.uiSettings.options.disableEnlargingThumbnails'),
+                    value: 'disableEnlargingThumbnails',
+                    icon: null,
+                },
+                {
+                    name: t('settings.options.uiSettings.options.enableShrinkingThumbnails'),
+                    value: 'enableShrinkingThumbnails',
+                    icon: null,
                 }
             ]
         },

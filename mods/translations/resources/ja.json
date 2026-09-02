@@ -6,7 +6,11 @@
         "options": {
             "socialMedia": {
                 "title": "ソーシャルメディアのリンク",
-                "qrCodeScanMessage": "以下の QR コードをスキャンすると {{name}} のページにアクセスできます。"
+                "qrCodeScanMessage": "以下の QR コードをスキャンすると {{name}} のページにアクセスできます。",
+                "announcements": "Announcements",
+                "group": "Group",
+                "website": "Website",
+                "githubSponsors": "GitHub Sponsors"
             },
             "adBlock": "広告をブロックする",
             "sponsorblock": {
@@ -99,7 +103,9 @@
                     "afrPauseDuration": {
                         "title": "自動フレームレート時の一時停止の長さ",
                         "subtitle": "フレームレートの調整時で動画再生を一時停止する時間 (秒単位) を設定します"
-                    }
+                    },
+                    "codecAny": "Any",
+                    "qualityAuto": "Auto"
                 }
             },
             "uiSettings": {
@@ -149,7 +155,25 @@
                             "isClock12HourFormat": "12 時間制の時計を使用する",
                             "clockShowSeconds": "時計に秒数を表示する"
                         }
-                    }
+                    },
+                    "categories": {
+                        "search": "Search",
+                        "home": "Home",
+                        "sports": "Sports",
+                        "news": "News",
+                        "music": "Music",
+                        "podcasts": "Podcasts",
+                        "moviesAndTv": "Movies & TV",
+                        "live": "Live",
+                        "gaming": "Gaming",
+                        "subscriptions": "Subscriptions",
+                        "library": "Library",
+                        "more": "More",
+                        "shorts": "Shorts",
+                        "searchResults": "Search Results"
+                    },
+                    "disableEnlargingThumbnails": "Disable Enlarged Thumbnails",
+                    "enableShrinkingThumbnails": "Enable Shrinked Thumbnails"
                 }
             },
             "updater": {
@@ -159,7 +183,38 @@
                 "options": {
                     "checkForUpdates": "更新を確認する",
                     "checkForUpdatesOnStartup": "起動時に更新を確認する"
+                },
+                "updateAvailable": {
+                    "title": "Update Available",
+                    "subtitle": "A new version of TizenTube Cobalt is available: {{latestVersion}}, current: {{currentVersion}}"
+                },
+                "releaseDate": "Release Date: {{date}}",
+                "updateNow": {
+                    "title": "Update Now",
+                    "subtitle": "Click to download the latest version."
+                },
+                "remindLater": {
+                    "title": "Remind Me Later",
+                    "subtitle": "Check for updates later."
+                },
+                "upToDate": {
+                    "title": "TizenTube is up to date",
+                    "subtitle": "You are using the latest version ({{version}}) of TizenTube Cobalt."
+                },
+                "checkFailed": {
+                    "title": "TizenTube update check failed",
+                    "subtitle": "Could not check for updates."
+                },
+                "downloading": {
+                    "title": "TizenTube Update",
+                    "subtitle": "Downloading update, please wait..."
                 }
+            },
+            "time": {
+                "second": "{{count}} second",
+                "seconds": "{{count}} seconds",
+                "minute": "{{count}} minute",
+                "minutes": "{{count}} minutes"
             }
         },
         "ttSettings": {
@@ -202,5 +257,21 @@
             "skip": "{{segment}}をスキップ",
             "skipToHighlight": "ハイライトへスキップ"
         }
+    },
+    "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with TizenTube"
+    },
+    "toasts": {
+        "videoAddedToQueue": "Video added to queue.",
+        "videoQueueCleared": "Video queue cleared."
     }
 }

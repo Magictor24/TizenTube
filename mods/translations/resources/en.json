@@ -177,7 +177,9 @@
                             "isClock12HourFormat": "Use 12-Hour Format for Clock",
                             "clockShowSeconds": "Show Seconds on Clock"
                         }
-                    }
+                    },
+                    "disableEnlargingThumbnails": "Disable Enlarged Thumbnails",
+                    "enableShrinkingThumbnails": "Enable Shrinked Thumbnails"
                 }
             },
             "updater": {
